@@ -11,18 +11,14 @@
     ]
   },
   "dependencies": {
-    "mocha-multi": "^1.0.1",
-    "moment": "^2.22.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4",
-    "webpack": "^3.11.0"
+    "mocha-multi": "^1.1.3",
+    "moment": "^2.24.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "mocha -w ./test/*.js",
-    "eject": "react-scripts eject"
+    "start": "react-scripts start"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -35,5 +31,17 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "mocha": "^5.2.0",
     "sinon": "^6.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
